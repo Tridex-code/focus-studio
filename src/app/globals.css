@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f5ef;
+  --foreground: #0f172a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(247, 213, 165, 0.35), transparent 38%),
+    radial-gradient(circle at 90% 12%, rgba(45, 212, 191, 0.25), transparent 35%),
+    linear-gradient(115deg, #fff8ec 0%, #f0fdfa 54%, #e6fffb 100%);
+}
+
+.glass-teal {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(204, 251, 241, 0.56));
+  backdrop-filter: blur(12px);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.story-track {
+  display: flex;
+  width: max-content;
+  animation: story-scroll 34s linear infinite;
+}
+
+.story-paused {
+  animation-play-state: paused;
+}
+
+@keyframes story-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

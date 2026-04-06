@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E8"/>
+      <stop offset="0.55" stop-color="#F2FFFC"/>
+      <stop offset="1" stop-color="#D8FFFA"/>
+    </linearGradient>
+    <radialGradient id="softA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 180) rotate(30) scale(320 240)">
+      <stop stop-color="#EFC998" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#EFC998" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 120) rotate(20) scale(280 220)">
+      <stop stop-color="#14B8A6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#softA)"/>
+  <rect width="1200" height="630" fill="url(#softB)"/>
+
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="white" fill-opacity="0.56" stroke="white" stroke-opacity="0.7"/>
+
+  <text x="120" y="210" fill="#0F172A" font-family="Georgia, Times New Roman, serif" font-size="68" font-weight="700">
+    Focus Studio
+  </text>
+  <text x="120" y="278" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600">
+    Artistic Photography and Professional Printing
+  </text>
+  <text x="120" y="344" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Weddings, events, portraits, and precision print services
+  </text>
+  <text x="120" y="392" fill="#0F766E" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">
+    Mailavu, Kozicode
+  </text>
+
+  <rect x="120" y="440" width="292" height="58" rx="29" fill="#0F172A"/>
+  <text x="163" y="477" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Book via WhatsApp
+  </text>
+</svg>
