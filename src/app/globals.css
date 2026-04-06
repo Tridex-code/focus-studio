@@ -44,10 +44,18 @@ body {
 .story-track {
   display: flex;
   width: max-content;
+  will-change: transform;
   animation: story-scroll 34s linear infinite;
 }
 
-.story-paused {
+.story-group {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.story-rail:hover .story-track,
+.story-rail:focus-within .story-track {
   animation-play-state: paused;
 }
 
@@ -67,6 +75,14 @@ body {
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-track,
+  .portfolio-marquee-track,
+  .whatsapp-buzz {
+    animation: none;
   }
 }
 

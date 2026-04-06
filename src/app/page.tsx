@@ -16,6 +16,13 @@ import { StoryScrollGallery } from "@/components/StoryScrollGallery";
 export default function Home() {
   return (
     <div className="relative flex min-h-screen flex-col overflow-x-clip pb-20 font-sans">
+      <div className="pointer-events-none absolute -left-20 top-24 h-72 w-72 rounded-full bg-red-500/18 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute left-[12%] top-[34%] h-44 w-44 rounded-full bg-red-400/14 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute -right-24 top-[42%] h-80 w-80 rounded-full bg-rose-500/14 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute right-[8%] top-[12%] h-52 w-52 rounded-full bg-red-300/12 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute left-[35%] bottom-24 h-64 w-64 rounded-full bg-rose-400/12 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute -right-16 bottom-[18%] h-60 w-60 rounded-full bg-red-500/10 blur-3xl" aria-hidden="true" />
+
       <StudioNavbar />
 
       <main className="flex-1">

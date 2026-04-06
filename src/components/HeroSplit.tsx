@@ -5,6 +5,10 @@ import { motion } from "framer-motion";
 export function HeroSplit() {
   return (
     <section id="photography" className="relative overflow-hidden px-4 pt-28 sm:px-6 lg:px-8">
+      <div className="pointer-events-none absolute left-10 top-24 h-56 w-56 rounded-full bg-red-500/28 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute right-12 top-36 h-64 w-64 rounded-full bg-rose-500/26 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute left-1/2 top-16 h-40 w-40 -translate-x-1/2 rounded-full bg-red-400/20 blur-3xl" aria-hidden="true" />
+
       <div className="mx-auto grid w-full max-w-[2200px] grid-cols-1 overflow-hidden rounded-3xl border border-white/25 bg-white/10 shadow-2xl backdrop-blur-xl lg:grid-cols-2">
         <div className="relative min-h-[70vh] lg:min-h-[78vh]">
           <video
@@ -51,7 +55,7 @@ export function HeroSplit() {
         </div>
 
         <div className="relative min-h-[60vh] bg-gradient-to-br from-[#e2fbf8] via-[#ffffff] to-[#8fe8df] p-5 sm:min-h-[70vh] sm:p-8 lg:min-h-[78vh] lg:p-12">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(14,165,152,0.25),transparent_45%),radial-gradient(circle_at_80%_80%,rgba(13,148,136,0.35),transparent_35%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(14,165,152,0.25),transparent_45%),radial-gradient(circle_at_80%_80%,rgba(13,148,136,0.35),transparent_35%),radial-gradient(circle_at_88%_14%,rgba(239,68,68,0.20),transparent_32%)]" />
           <motion.div
             initial={{ opacity: 0, x: 24 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -60,6 +64,9 @@ export function HeroSplit() {
             className="relative z-10 flex h-full flex-col justify-center"
           >
             <div className="glass-teal max-w-xl rounded-2xl p-5 sm:p-8">
+              <div className="mb-3 inline-flex w-fit items-center gap-2 rounded-full border border-rose-200 bg-rose-50/85 px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.2em] text-rose-700">
+                2026 Dates Open
+              </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-teal-700">Wedding Focus</p>
               <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-5xl lg:text-6xl">Limited Dates. Fast Replies. Clear Coverage.</h2>
               <p className="mt-3 text-sm leading-relaxed text-slate-700 sm:mt-4 sm:text-base">
