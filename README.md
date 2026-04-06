@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Focus Studio
 
-## Getting Started
+Focus Studio is a static Next.js site with no database and no backend API.
 
-First, run the development server:
+## What this project is
+
+- Static export only
+- No server-side data fetching
+- No database
+- No API routes
+- Ready for static hosting such as Netlify, Vercel Static, GitHub Pages, or Cloudflare Pages
+
+## Local preview
+
+You can preview the site locally in two ways:
+
+### Development mode
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Static preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npx serve out -l 4173
+```
 
-## Learn More
+Open http://localhost:4173
 
-To learn more about Next.js, take a look at the following resources:
+## Deploying as a static site
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After building, upload the contents of the `out` folder to your static host.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Edit the site
 
-## Deploy on Vercel
+The homepage lives in `src/app/page.tsx` and the shared site settings live in `src/lib/siteConfig.ts`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- There is no database in this project.
+- There are no server routes to configure.
+- If you only want the live static files, use the `out` folder.
