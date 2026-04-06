@@ -30,6 +30,14 @@ const items: Item[] = [
 ];
 
 const filters: ("All" | Category)[] = ["All", "Wedding", "Events", "Print Samples"];
+const marqueePills = [
+  "WEDDING STORIES",
+  "CINEMATIC MOMENTS",
+  "KOZHIKODE WEDDINGS",
+  "LIMITED DATES",
+  "PREMIUM COVERAGE",
+  "FAST DELIVERY",
+];
 
 export function PortfolioGallery() {
   const [active, setActive] = useState<("All" | Category)>("Wedding");
@@ -42,6 +50,17 @@ export function PortfolioGallery() {
   return (
     <section id="portfolio" className="px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
       <div className="mx-auto w-full max-w-[2200px]">
+        <div className="mb-6 overflow-hidden rounded-full border border-teal-200/70 bg-white/70 shadow-sm backdrop-blur">
+          <div className="portfolio-marquee-track" aria-label="Portfolio highlights marquee">
+            {[...marqueePills, ...marqueePills].map((pill, index) => (
+              <span key={`${pill}-${index}`} className="inline-flex items-center px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-teal-800 sm:px-5">
+                {pill}
+                <span className="ml-4 text-teal-400">+</span>
+              </span>
+            ))}
+          </div>
+        </div>
+
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">Portfolio</p>

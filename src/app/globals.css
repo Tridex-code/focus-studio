@@ -51,7 +51,26 @@ body {
   animation-play-state: paused;
 }
 
+.portfolio-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: portfolio-marquee 22s linear infinite;
+}
+
+.portfolio-marquee-track:hover {
+  animation-play-state: paused;
+}
+
 @keyframes story-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes portfolio-marquee {
   0% {
     transform: translateX(0);
   }
