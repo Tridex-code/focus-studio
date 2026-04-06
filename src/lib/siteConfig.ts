@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Focus Studio",
-  domain: "https://focusstudio.example",
+  domain: "https://aloneghost12.github.io",
+  pathPrefix: "/focus-studio",
   location: {
     street: "Mailavu",
     city: "Kozicode",

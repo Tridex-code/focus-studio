@@ -30,19 +30,19 @@ export const metadata: Metadata = {
     "creative studio Kerala",
   ],
   alternates: {
-    canonical: "/",
+    canonical: `${siteConfig.pathPrefix}/`,
   },
   openGraph: {
     title: `${siteConfig.name} | Wedding Photography and Printing in ${siteConfig.location.city}`,
     description:
       "Artistic wedding storytelling, event coverage, and professional print services from Focus Studio.",
-    url: "/",
+    url: `${siteConfig.pathPrefix}/`,
     siteName: siteConfig.name,
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/focus-studio-og.svg",
+        url: `${siteConfig.pathPrefix}/focus-studio-og.svg`,
         width: 1200,
         height: 630,
         alt: "Focus Studio social preview",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | Wedding Photography and Printing in ${siteConfig.location.city}`,
     description:
       "Explore Focus Studio services in Mailavu, Kozicode for weddings, portraits, and quality print outputs.",
-    images: ["/focus-studio-og.svg"],
+    images: [`${siteConfig.pathPrefix}/focus-studio-og.svg`],
   },
 };
 
@@ -79,7 +79,7 @@ export default function RootLayout({
       addressCountry: siteConfig.location.countryCode,
     },
     telephone: siteConfig.contact.phoneRaw,
-    url: siteConfig.domain,
+    url: `${siteConfig.domain}${siteConfig.pathPrefix}/`,
     sameAs: [siteConfig.social.instagram, siteConfig.contact.whatsappUrl],
     openingHoursSpecification: [
       {

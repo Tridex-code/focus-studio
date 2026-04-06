@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://focusstudio.example/sitemap.xml
+Sitemap: https://aloneghost12.github.io/focus-studio/sitemap.xml
