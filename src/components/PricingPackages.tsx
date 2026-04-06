@@ -37,8 +37,8 @@ export function PricingPackages() {
         <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">Pricing</p>
-            <h3 className="mt-2 font-serif text-3xl text-slate-900 sm:text-4xl">Wedding Packages That Are Easy to Compare</h3>
-            <p className="mt-3 max-w-2xl text-slate-700">
+            <h3 className="mt-2 font-serif text-3xl leading-tight text-slate-900 sm:text-4xl">Wedding Packages That Are Easy to Compare</h3>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-700 sm:text-base">
               Limited bookings per month. Choose the coverage level that fits your wedding, then check availability before dates fill up.
             </p>
           </div>
@@ -61,7 +61,7 @@ export function PricingPackages() {
                 <p className={`text-xs font-semibold uppercase tracking-[0.3em] ${pkg.featured ? "text-teal-300" : "text-teal-700"}`}>{pkg.name}</p>
                 {pkg.featured ? <span className="rounded-full bg-teal-500 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-white">Most Popular</span> : null}
               </div>
-              <h4 className="mt-2 text-3xl font-bold">{pkg.price}</h4>
+              <h4 className="mt-2 text-2xl font-bold sm:text-3xl">{pkg.price}</h4>
               <p className={`mt-2 text-sm ${pkg.featured ? "text-slate-300" : "text-slate-600"}`}>{pkg.idealFor}</p>
 
               <ul className="mt-5 grid gap-2 text-sm">
@@ -72,10 +72,7 @@ export function PricingPackages() {
                 ))}
               </ul>
 
-              <a
-                href={siteConfig.contact.whatsappUrl}
-                className={`mt-6 inline-flex rounded-full px-5 py-3 text-sm font-semibold transition ${pkg.featured ? "bg-white text-slate-900 hover:bg-slate-100" : "bg-slate-900 text-white hover:bg-slate-700"}`}
-              >
+              <a href={siteConfig.contact.whatsappUrl} className={`mt-6 inline-flex rounded-full px-5 py-3 text-sm font-semibold transition ${pkg.featured ? "bg-white text-slate-900 hover:bg-slate-100" : "bg-slate-900 text-white hover:bg-slate-700"}`}>
                 {pkg.cta}
               </a>
             </motion.article>

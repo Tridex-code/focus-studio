@@ -27,18 +27,18 @@ export function HeroSplit() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.7 }}
-            className="relative z-10 flex h-full items-end p-8 sm:p-12"
+            className="relative z-10 flex h-full items-end p-5 sm:p-8 lg:p-12"
           >
-            <div className="max-w-xl rounded-2xl border border-[#f4e8d0]/35 bg-[#fff7eb]/20 p-6 backdrop-blur-sm sm:p-7">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-[#fff1dc]">Wedding Photography in Kozhikode</p>
-              <h1 className="font-serif text-4xl leading-tight text-[#fff8eb] sm:text-6xl">
+            <div className="max-w-xl rounded-2xl border border-[#f4e8d0]/35 bg-[#fff7eb]/20 p-5 backdrop-blur-sm sm:p-7">
+              <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.3em] text-[#fff1dc] sm:text-xs sm:tracking-[0.35em]">Wedding Photography in Kozhikode</p>
+              <h1 className="font-serif text-3xl leading-tight text-[#fff8eb] sm:text-5xl lg:text-6xl">
                 Premium Wedding Photography in Kozhikode That Makes Booking Easy
               </h1>
-              <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#fff2df] sm:text-base">
+              <p className="mt-3 max-w-lg text-sm leading-relaxed text-[#fff2df] sm:mt-4 sm:text-base">
                 Focus Studio helps couples in Kozhikode check availability quickly, choose the right package, and get clean, polished wedding coverage without confusion.
               </p>
 
-              <div className="mt-6 flex flex-wrap gap-3">
+              <div className="mt-5 flex flex-col gap-3 sm:mt-6 sm:flex-row">
                 <a href="#availability" className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100">
                   Check Availability
                 </a>
@@ -50,7 +50,7 @@ export function HeroSplit() {
           </motion.div>
         </div>
 
-        <div className="relative min-h-[70vh] bg-gradient-to-br from-[#e2fbf8] via-[#ffffff] to-[#8fe8df] p-8 sm:p-12 lg:min-h-[78vh]">
+        <div className="relative min-h-[60vh] bg-gradient-to-br from-[#e2fbf8] via-[#ffffff] to-[#8fe8df] p-5 sm:min-h-[70vh] sm:p-8 lg:min-h-[78vh] lg:p-12">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(14,165,152,0.25),transparent_45%),radial-gradient(circle_at_80%_80%,rgba(13,148,136,0.35),transparent_35%)]" />
           <motion.div
             initial={{ opacity: 0, x: 24 }}
@@ -59,13 +59,13 @@ export function HeroSplit() {
             transition={{ duration: 0.7 }}
             className="relative z-10 flex h-full flex-col justify-center"
           >
-            <div className="glass-teal max-w-xl rounded-2xl p-6 sm:p-8">
+            <div className="glass-teal max-w-xl rounded-2xl p-5 sm:p-8">
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-teal-700">Wedding Focus</p>
-              <h2 className="text-4xl font-black leading-tight text-slate-900 sm:text-6xl">Limited Dates. Fast Replies. Clear Coverage.</h2>
-              <p className="mt-4 text-sm leading-relaxed text-slate-700 sm:text-base">
+              <h2 className="text-3xl font-black leading-tight text-slate-900 sm:text-5xl lg:text-6xl">Limited Dates. Fast Replies. Clear Coverage.</h2>
+              <p className="mt-3 text-sm leading-relaxed text-slate-700 sm:mt-4 sm:text-base">
                 We keep the process simple: check your date, choose a package, and confirm the booking before the schedule fills up.
               </p>
-              <div className="mt-8 grid grid-cols-3 gap-3 text-center">
+              <div className="mt-6 grid grid-cols-1 gap-3 text-center sm:mt-8 sm:grid-cols-3">
                 {[
                   ["Limited", "Bookings / month"],
                   ["Fast", "WhatsApp replies"],

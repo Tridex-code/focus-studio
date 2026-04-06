@@ -11,6 +11,7 @@ import { StudioMap } from "@/components/StudioMap";
 import { StudioNavbar } from "@/components/StudioNavbar";
 import { TrustBadges } from "@/components/TrustBadges";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { StoryScrollGallery } from "@/components/StoryScrollGallery";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSplit />
         <PortfolioGallery />
+        <StoryScrollGallery />
         <ServiceFocus />
         <PricingPackages />
         <ClientTestimonials />
