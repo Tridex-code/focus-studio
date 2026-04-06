@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "Can we book consultations before confirming a package?",
     answer:
-      "Absolutely. You can visit our studio in Mailavu, Kozicode or contact us on WhatsApp for a quick consultation.",
+      "Absolutely. You can visit our studio in Mailavu, Kozhikode or contact us on WhatsApp for a quick consultation.",
   },
   {
     question: "Do you provide album design and premium print finishing?",
@@ -25,9 +25,9 @@ const faqs = [
       "Yes. We provide album design, lamination, canvas, and high-precision print finishing based on your event style.",
   },
   {
-    question: "What areas near Kozicode do you serve?",
+    question: "What areas near Kozhikode do you serve?",
     answer:
-      "We serve clients across Kozicode and nearby regions for shoots, event coverage, and studio print services.",
+      "We serve clients across Kozhikode and nearby regions for shoots, event coverage, and studio print services.",
   },
 ];
 

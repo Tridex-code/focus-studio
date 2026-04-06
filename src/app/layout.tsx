@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     `${siteConfig.name} in ${siteConfig.location.street}, ${siteConfig.location.city} offers wedding photography, event coverage, premium printing, and fast studio support.`,
   keywords: [
     "Focus Studio",
-    "wedding photography Kozicode",
+    "wedding photography Kozhikode",
     "photo studio Mailavu",
     "passport photo printing",
     "event photography",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteConfig.name} | Wedding Photography and Printing in ${siteConfig.location.city}`,
     description:
-      "Explore Focus Studio services in Mailavu, Kozicode for weddings, portraits, and quality print outputs.",
+      "Explore Focus Studio services in Mailavu, Kozhikode for weddings, portraits, and quality print outputs.",
     images: [`${siteConfig.pathPrefix}/focus-studio-og.svg`],
   },
 };

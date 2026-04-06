@@ -4,7 +4,7 @@ export const siteConfig = {
   pathPrefix: "/focus-studio",
   location: {
     street: "Mailavu",
-    city: "Kozicode",
+    city: "Kozhikode",
     region: "Kerala",
     postalCode: "673001",
     countryCode: "IN",

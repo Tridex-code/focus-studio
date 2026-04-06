@@ -40,7 +40,7 @@ export function StudioDetails() {
 
             <div className="mt-6 rounded-2xl border border-teal-100 bg-teal-50/70 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-teal-700">Location</p>
-              <p className="mt-2 text-lg font-semibold text-slate-900">Mailavu, Kozicode</p>
+              <p className="mt-2 text-lg font-semibold text-slate-900">Mailavu, Kozhikode</p>
               <p className="text-sm text-slate-600">Serving nearby areas for shoots, bookings, and print pickup.</p>
             </div>
           </motion.div>
