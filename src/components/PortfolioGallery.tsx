@@ -40,7 +40,10 @@ export function PortfolioGallery() {
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">Portfolio</p>
-            <h3 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Filterable Masonry Showcase</h3>
+            <h3 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Recent Wedding Work and Studio Deliverables</h3>
+            <p className="mt-3 max-w-2xl text-slate-700">
+              See the quality of our wedding coverage, event moments, and print samples before you book.
+            </p>
           </div>
           <div className="flex flex-wrap gap-2">
             {filters.map((filter) => (

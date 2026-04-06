@@ -7,27 +7,27 @@ const faqs = [
   {
     question: "Do you cover full-day wedding photography and videography?",
     answer:
-      "Yes. We offer flexible packages from engagement shoots to full wedding-day coverage with cinematic highlight edits.",
+      "Yes. We cover pre-wedding, wedding-day, and highlight edits with clear package options.",
   },
   {
     question: "How quickly can I get passport photos and urgent prints?",
     answer:
-      "Most passport photos and document prints are delivered within 15 to 30 minutes during studio hours.",
+      "Most passport photos and urgent prints are ready within 15 to 30 minutes during studio hours.",
   },
   {
     question: "Can we book consultations before confirming a package?",
     answer:
-      "Absolutely. You can visit our studio in Mailavu, Kozhikode or contact us on WhatsApp for a quick consultation.",
+      "Yes. Message us on WhatsApp or visit our studio in Mailavu, Kozhikode to check availability first.",
   },
   {
     question: "Do you provide album design and premium print finishing?",
     answer:
-      "Yes. We provide album design, lamination, canvas, and high-precision print finishing based on your event style.",
+      "Yes. We provide album design, lamination, canvas, and premium print finishing.",
   },
   {
     question: "What areas near Kozhikode do you serve?",
     answer:
-      "We serve clients across Kozhikode and nearby regions for shoots, event coverage, and studio print services.",
+      "We serve Kozhikode and nearby areas for weddings, events, and studio printing.",
   },
 ];
 
@@ -38,7 +38,7 @@ export function FAQSection() {
     <section id="faq" className="px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto w-full max-w-[2200px] rounded-3xl border border-white/35 bg-white/45 p-6 shadow-xl backdrop-blur-xl sm:p-8">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">FAQ</p>
-        <h3 className="mt-2 font-serif text-3xl text-slate-900 sm:text-4xl">Frequently Asked Questions</h3>
+        <h3 className="mt-2 font-serif text-3xl text-slate-900 sm:text-4xl">Quick Answers Before You Book</h3>
 
         <div className="mt-6 grid gap-3">
           {faqs.map((faq, index) => {

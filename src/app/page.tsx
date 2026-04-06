@@ -2,13 +2,14 @@ import { ClientTestimonials } from "@/components/ClientTestimonials";
 import { FAQSection } from "@/components/FAQSection";
 import { HeroSplit } from "@/components/HeroSplit";
 import { PortfolioGallery } from "@/components/PortfolioGallery";
-import { StoryScrollGallery } from "@/components/StoryScrollGallery";
+import { CallToActionBand } from "@/components/CallToActionBand";
+import { PricingPackages } from "@/components/PricingPackages";
+import { ServiceFocus } from "@/components/ServiceFocus";
 import { StudioDetails } from "@/components/StudioDetails";
 import { StudioMap } from "@/components/StudioMap";
 import { StudioNavbar } from "@/components/StudioNavbar";
 import { TrustBadges } from "@/components/TrustBadges";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
-import { WeddingVideoShowcase } from "@/components/WeddingVideoShowcase";
 
 export default function Home() {
   return (
@@ -17,12 +18,13 @@ export default function Home() {
 
       <main className="flex-1">
         <HeroSplit />
-        <StoryScrollGallery />
-        <WeddingVideoShowcase />
         <PortfolioGallery />
+        <ServiceFocus />
+        <PricingPackages />
         <ClientTestimonials />
-        <StudioDetails />
+        <CallToActionBand />
         <FAQSection />
+        <StudioDetails />
         <StudioMap />
       </main>
 

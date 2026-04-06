@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const badges = [
-  { label: "Happy Couples", value: "500+" },
-  { label: "Years of Experience", value: "10+" },
-  { label: "Average Rating", value: "4.9/5" },
-  { label: "Print Delivery", value: "Same-Day" },
+  { label: "Couples Served", value: "500+" },
+  { label: "Years Shooting", value: "10+" },
+  { label: "Client Rating", value: "4.9/5" },
+  { label: "Fast Delivery", value: "Same-Day" },
 ];
 
 export function TrustBadges() {

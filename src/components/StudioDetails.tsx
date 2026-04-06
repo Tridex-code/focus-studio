@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 
 const highlights = [
   {
-    title: "Creative Direction",
-    text: "Our team blends cinematic storytelling, editorial composition, and modern color science to produce timeless visuals.",
+    title: "Wedding-First Process",
+    text: "We plan the shot list, timeline, and edit style around your wedding day goals.",
   },
   {
-    title: "End-to-End Studio",
-    text: "From engagement shoots to wedding albums and premium print finishing, every service is managed under one roof.",
+    title: "All Key Services in One Studio",
+    text: "Wedding photography comes first, with albums, prints, and finishing available when needed.",
   },
   {
-    title: "Client Experience",
-    text: "Personalized planning, transparent communication, and fast delivery keep every project smooth and stress-free.",
+    title: "Clear Communication",
+    text: "You get fast replies, clear pricing, and delivery timelines you can trust.",
   },
 ];
 
@@ -29,13 +29,9 @@ export function StudioDetails() {
             className="lg:col-span-2"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">About Studio</p>
-            <h3 className="mt-2 font-serif text-3xl leading-tight text-slate-900 sm:text-4xl">
-              Crafted Memories, Precise Production
-            </h3>
+            <h3 className="mt-2 font-serif text-3xl leading-tight text-slate-900 sm:text-4xl">Book Focus Studio in Kozhikode</h3>
             <p className="mt-4 text-slate-700">
-              Focus Studio is a modern creative destination for wedding photography, events, portraits,
-              high-quality prints, and digital finishing. We combine artistic vision with reliable technology to
-              deliver work that looks premium on screen and in print.
+              Focus Studio is a wedding photography studio in Kozhikode. We help you check availability, choose the right package, and get clear results without confusion.
             </p>
 
             <div className="mt-6 rounded-2xl border border-teal-100 bg-teal-50/70 p-4">

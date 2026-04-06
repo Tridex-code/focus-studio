@@ -7,7 +7,7 @@ const testimonials = [
     name: "Nihal & Amina",
     role: "Wedding Couple",
     quote:
-      "Focus Studio captured our wedding exactly how we felt it. Every frame looked emotional, cinematic, and deeply personal.",
+      "We booked Focus Studio after checking the portfolio and got exactly what we wanted: clear communication, strong coverage, and beautiful wedding photos.",
     image:
       "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=500&q=80",
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Riyas K.",
     role: "Event Client",
     quote:
-      "The team was punctual, creative, and very easy to work with. We received edited photos faster than expected.",
+      "They were on time, handled the event professionally, and delivered edited photos faster than we expected.",
     image:
       "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
   },
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Fathima P.",
     role: "Print Customer",
     quote:
-      "Their print quality is sharp and color-accurate. Passport photos and laminated copies were done in minutes.",
+      "The print work was sharp, fast, and accurate. Passport photos and lamination were done without any hassle.",
     image:
       "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=500&q=80",
   },
@@ -35,7 +35,7 @@ export function ClientTestimonials() {
       <div className="mx-auto w-full max-w-[2200px]">
         <div className="mb-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-teal-700">Testimonials</p>
-          <h3 className="mt-2 font-serif text-3xl text-slate-900 sm:text-4xl">Stories from Our Clients</h3>
+          <h3 className="mt-2 font-serif text-3xl text-slate-900 sm:text-4xl">What Clients Say After Booking</h3>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

@@ -20,7 +20,7 @@ export function HeroSplit() {
               type="video/mp4"
             />
           </video>
-          <div className="absolute inset-0 bg-gradient-to-b from-[#1f1410]/40 via-[#6b4b30]/20 to-[#c7a26f]/50" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#1f1410]/35 via-[#6b4b30]/18 to-[#c7a26f]/45" />
 
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -29,12 +29,24 @@ export function HeroSplit() {
             transition={{ duration: 0.7 }}
             className="relative z-10 flex h-full items-end p-8 sm:p-12"
           >
-            <div className="max-w-xl rounded-2xl border border-[#f4e8d0]/45 bg-[#fff7eb]/25 p-6 backdrop-blur-md">
-              <p className="mb-2 text-xs uppercase tracking-[0.35em] text-[#fff1dc]">Artistic Photography & Weddings</p>
-              <h1 className="font-serif text-4xl leading-tight text-[#fff8eb] sm:text-6xl">Capturing Moments That Feel Like Poetry</h1>
+            <div className="max-w-xl rounded-2xl border border-[#f4e8d0]/35 bg-[#fff7eb]/20 p-6 backdrop-blur-sm sm:p-7">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-[#fff1dc]">Wedding Photography in Kozhikode</p>
+              <h1 className="font-serif text-4xl leading-tight text-[#fff8eb] sm:text-6xl">
+                Book a Wedding Photographer Who Delivers Clear, Beautiful Results
+              </h1>
               <p className="mt-4 max-w-lg text-sm leading-relaxed text-[#fff2df] sm:text-base">
-                Editorial-grade wedding films and portrait sessions crafted with cinematic storytelling and timeless color.
+                Focus Studio covers wedding photography, couple portraits, and full event storytelling in Kozhikode.
+                Check your date, view the work, and book with confidence.
               </p>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#availability" className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100">
+                  Check Availability
+                </a>
+                <a href="#portfolio" className="rounded-full border border-white/30 bg-white/10 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/15">
+                  View Portfolio
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -49,22 +61,31 @@ export function HeroSplit() {
             className="relative z-10 flex h-full flex-col justify-center"
           >
             <div className="glass-teal max-w-xl rounded-2xl p-6 sm:p-8">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-teal-700">Professional Printing & Tech Services</p>
-              <h2 className="text-4xl font-black leading-tight text-slate-900 sm:text-6xl">Precision Printing for Every Need</h2>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.35em] text-teal-700">Secondary Studio Service</p>
+              <h2 className="text-4xl font-black leading-tight text-slate-900 sm:text-6xl">Printing When You Need It Fast</h2>
               <p className="mt-4 text-sm leading-relaxed text-slate-700 sm:text-base">
-                Passport photos, PVC cards, canvas prints, lamination, and instant digital finishing powered by calibrated equipment.
+                Passport photos, PVC cards, canvas prints, lamination, and urgent studio prints are available as a supporting service.
               </p>
               <div className="mt-8 grid grid-cols-3 gap-3 text-center">
                 {[
-                  ["10K+", "Prints / month"],
-                  ["24hr", "Fast delivery"],
-                  ["4K", "Pro color checks"],
+                  ["Fast", "Pickup available"],
+                  ["Clear", "Print quality"],
+                  ["Quick", "Passport photos"],
                 ].map(([value, label]) => (
                   <div key={label} className="rounded-xl border border-teal-200 bg-white/70 p-3">
                     <p className="text-lg font-extrabold text-teal-700">{value}</p>
                     <p className="text-xs text-slate-600">{label}</p>
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#packages" className="rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700">
+                  View Packages
+                </a>
+                <a href="#contact" className="rounded-full border border-teal-300 bg-white px-5 py-3 text-sm font-semibold text-teal-900 transition hover:bg-teal-50">
+                  Get Quote
+                </a>
               </div>
             </div>
           </motion.div>
