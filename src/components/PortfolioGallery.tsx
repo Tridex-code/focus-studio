@@ -17,9 +17,9 @@ type Item = {
 const items: Item[] = [
   { id: 1, category: "Wedding", title: "Golden Hour Vows", image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80", span: "md:row-span-2" },
   { id: 2, category: "Wedding", title: "Ceremony Detail", image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1000&q=80", span: "" },
-  { id: 9, category: "Wedding", title: "Bride Portrait", image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?auto=format&fit=crop&w=1000&q=80", span: "" },
+  { id: 9, category: "Wedding", title: "Bride Portrait", image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80", span: "" },
   { id: 10, category: "Wedding", title: "Family Blessings", image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1000&q=80", span: "" },
-  { id: 11, category: "Wedding", title: "Couple Exit", image: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=1000&q=80", span: "" },
+  { id: 11, category: "Wedding", title: "Couple Exit", image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1000&q=80", span: "" },
   { id: 12, category: "Wedding", title: "Reception Lights", image: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1000&q=80", span: "" },
   { id: 3, category: "Events", title: "Stage Spotlight", image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80", span: "" },
   { id: 4, category: "Events", title: "Crowd Energy", image: "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80", span: "md:row-span-2" },
