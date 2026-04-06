@@ -44,9 +44,10 @@ export function WeddingVideoShowcase() {
             controls
             playsInline
             preload="metadata"
-            poster="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=1400&q=80"
+            poster="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=80"
             className="aspect-video w-full object-cover"
           >
+            <source src="/wedding-highlight.mp4" type="video/mp4" />
             <source
               src="https://player.vimeo.com/external/368763302.sd.mp4?s=f2e9f0ffebf8f6f8dd6d2dcf6ebf2040f349f2ef&profile_id=164"
               type="video/mp4"
